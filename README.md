@@ -10,3 +10,6 @@ Please make sure you've installed all required packages before deployment and mi
 
 ## July 5
 Built the framework for the website. Implemented a responsive image gallery display plugin.
+
+Todo:
+-[] optimize performance when loading large images
