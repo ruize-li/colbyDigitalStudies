@@ -1,0 +1,14 @@
+{
+    "sdmh": {
+        "path": "database/galleries/sdmh/content",
+        "folders": []
+    },
+    "shmh": {
+        "path": "database/galleries/shmh/content",
+        "folders": [
+            "No.0",
+            "No.1",
+            "No.2"
+        ]
+    }
+}
