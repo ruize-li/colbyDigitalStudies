@@ -1,7 +1,7 @@
 
 # Welcome to this project.
 
-This web app is built for Colby College East Asian department. It supports mobile-responsive image
+This web app is built for Colby College East Asian department.
 
   
   
