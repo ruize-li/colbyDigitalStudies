@@ -50,6 +50,7 @@ let buildPage = function() {
                  <div class="btn-group">
                     <button type="button" class="btn btn-sm btn-outline-secondary" id = ${data[i].btn_id}_view_set>View Set</button>
                     <button type="button" class="btn btn-sm btn-outline-secondary" id = ${data[i].btn_id}_view_pdf>View PDF</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary" id = ${data[i].btn_id}_view_book>View Book</button>
                  </div>
                  <small class="text-muted">9 mins</small>
               </div>

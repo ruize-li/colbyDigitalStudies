@@ -58,11 +58,21 @@ for (let i = 0; i < 3; i++) {
     sdmh_album_view_set_btn.addEventListener('click', function(){
         openPhotoSwipe(resrc);
     });
-    // get the VIEW_PDF buttonv
+
+    // get the VIEW_PDF button
     let sdmh_album_view_pdf_btn = document.getElementById("shmh_btn_id_" + i + "_view_pdf");
     sdmh_album_view_pdf_btn.addEventListener('click', function() {
         console.log(`../../../database/galleries/shmh/content/No.${i}/No.${i}.pdf`);
         window.open(`../../../database/galleries/shmh/content/No.${i}/No.${i}.pdf`);
         // database/galleries/shmh/content/No.0/No.0.pdf
     });
+
+    // get the VIEW_BOOK button
+    // ON_CLICK: generate the book view page accordingly
+    let sdmh_album_view_book_btn = document.getElementById("shmh_btn_id_" + i + "_view_book");
+    sdmh_album_view_book_btn.addEventListener('click', function() {
+        let new_page = window.open("../../js/turnjs4/samples/docs/index.html");
+        
+    });
+
 }
